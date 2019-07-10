@@ -42,6 +42,13 @@ def buy_dog(name)
   dog = Dog.new(name, self)
   @dogs << dog
 end
+#   it "walks the dogs which makes the dogs' moods happy" do
+#     dog = Dog.new("Daisy", @owner)
+#     @owner.walk_dogs
+#     expect(dog.mood).to eq("happy")
+#   end
+# end
+
 def walk_dogs
   Dog.walk_dogs
 end
