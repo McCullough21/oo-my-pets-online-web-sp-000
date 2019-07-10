@@ -60,12 +60,10 @@ def sell_pets
   @dogs.each do |dog|
   dog.mood = "nervous"
 
+  # @cats.each do |cat|
+  #   cat.mood = "happy"
 end
 
-  @cats.each do |cat|
-    cat.mood = "happy"
-end
-binding.pry
 end
 
 
