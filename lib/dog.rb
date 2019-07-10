@@ -7,7 +7,6 @@ def initialize(name, owner)
   @name.freeze
   @owner = owner
   @@all << name
-  @mood = "nervous"
 end
 def mood
   @mood
