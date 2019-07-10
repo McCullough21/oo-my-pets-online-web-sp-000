@@ -12,8 +12,7 @@ end
 def name
   @name
 end
-def self.walk_dogs
-  @@all.each do |dog|
+def walk_dogs
     dog.mood = "happy"
   end
 end
