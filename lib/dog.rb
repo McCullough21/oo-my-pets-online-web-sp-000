@@ -22,5 +22,8 @@ end
 def self.all
   @@all
 end
+def clear_owner
+  self.owner.clear
+end
 
 end
