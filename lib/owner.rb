@@ -49,9 +49,9 @@ end
 #   end
 # end
 
-# def walk_dogs
-#   Dog.walk_dogs
-# end
+def walk_dogs
+  Dog.walk_dogs
+end
 
 
 
