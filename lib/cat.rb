@@ -13,7 +13,9 @@ end
 def name
   @name
 end
-
+def clear_owner
+  self.owner.clear
+end
 def self.all
   @@all
 end
