@@ -33,7 +33,7 @@ def self.reset_all
   @@all.clear
 end
 def buy_cat(name)
-  @cats << Cat.new(name, self)
+  Cat.new(name, self)
 end
 def buy_dog(name)
   Dog.new(name, self)
@@ -46,9 +46,7 @@ end
 # end
 
 def walk_dogs
-
-      @dogs.each do |dog|
-   binding.pry
+    @dogs.each do |dog|
     dog.mood = "happy"
   end
 end
