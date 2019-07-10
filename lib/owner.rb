@@ -50,7 +50,7 @@ end
 # end
 
 def walk_dogs
-  Dog.walk_dogs
+  self.Dog.walk_dogs
 end
 
 
