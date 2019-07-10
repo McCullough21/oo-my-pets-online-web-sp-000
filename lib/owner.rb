@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
 attr_accessor :cats, :dogs
 @@all = []
@@ -45,6 +47,7 @@ end
 
 def walk_dogs
     self.dogs.each do |dog|
+      binding.pry
     dog.mood = "happy"
   end
 end
