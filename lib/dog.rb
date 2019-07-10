@@ -15,6 +15,7 @@ end
 def walk_dogs
   # @owner.each do |dog|
     dog.mood = "happy"
+    @mood
   # end
 end
 
