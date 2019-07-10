@@ -65,8 +65,12 @@ def sell_pets
     cat.mood = "nervous"
   end
   
-@dogs.clear_owner
-@cats.clear_owner
+@dogs.each do |dog|
+  dog.clear_owner
+end
+@cats.each do |cat|
+  cat.clear_owner
+end
 end
 
 
