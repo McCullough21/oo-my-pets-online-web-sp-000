@@ -10,11 +10,7 @@ def initialize(name)
   @dogs = []
 
 end
-# def name=(name)
-#   @name = name
-#   @name.freeze
-#   @@all << self
-# end
+
 def name
   @name
 end
@@ -53,7 +49,11 @@ def walk_dogs
   end
 end
 
-
+def list_pets
+  dogs = self.dogs.count
+  cats = self.cats.count
+  "I have #{dogs} dog(s), and #{cats} cat(s)."
+end
 
 
 end
