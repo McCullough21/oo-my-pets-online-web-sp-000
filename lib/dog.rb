@@ -1,12 +1,12 @@
 class Dog
-  attr_accessor :owner
-  attr_writer :mood
+  attr_accessor :owner, :mood
 @@all = []
 def initialize(name, owner)
   @name = name
   @name.freeze
   @owner = owner
   @@all << name
+  @mood = "nervous"
 end
 def mood
   @mood
