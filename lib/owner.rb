@@ -57,9 +57,10 @@ def feed_cats
 end
 
 def sell_pets
-  @dogs.map {|dog| dog.mood = "nervous"}
-end
-  @cats.each {|cat| cat.mood = "nervous"}
+  
+  self.dogs.map {|dog| dog.mood = "nervous"}
+  end
+  self.cats.each {|cat| cat.mood = "nervous"}
 
 end
 @dogs.clear
