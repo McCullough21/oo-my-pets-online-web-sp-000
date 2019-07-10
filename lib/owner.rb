@@ -65,9 +65,9 @@ end
   @cats.each do |cat|
     cat.mood = "happy"
 end
-
-end
 binding.pry
+end
+
 
 
 
