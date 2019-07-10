@@ -58,7 +58,7 @@ end
 
 def sell_pets
 #
-  @dogs.each do |dog| 
+  @dogs.each do |dog|
     dog.mood = "nervous"
   end
 #   self.cats.each {|cat| cat.mood = "nervous"}
