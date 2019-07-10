@@ -46,8 +46,9 @@ end
 # end
 
 def walk_dogs
-    self.dogs.each do |dog|
-      binding.pry
+  binding.pry
+      dogs.each do |dog|
+
     dog.mood = "happy"
   end
 end
