@@ -47,8 +47,8 @@ end
 #   end
 # end
 
-def walk_dogs(self)
-  self.dogs.each do |dog|
+def walk_dogs
+    dogs.each do |dog|
     dog.mood = "happy"
   end
 end
