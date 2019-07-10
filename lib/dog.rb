@@ -14,12 +14,12 @@ end
 def name
   @name
 end
-def walk_dogs
-  # @owner.each do |dog|
-   @name.mood = "happy"
-    @mood
-  # end
-end
+# def walk_dogs
+#   # @owner.each do |dog|
+#    @name.mood = "happy"
+#     @mood
+#   # end
+# end
 
 def self.all
   @@all
