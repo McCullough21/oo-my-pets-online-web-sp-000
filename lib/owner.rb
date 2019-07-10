@@ -53,6 +53,8 @@ end
 def feed_cats
  @cats.each do |cat|
    cat.mood = "happy"
+ end
+end
 
 def list_pets
   dogs = self.dogs.count
