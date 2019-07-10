@@ -65,8 +65,8 @@ def sell_pets
     cat.mood = "nervous"
   end
   binding.pry
-@dogs.clear
-@cats.clear
+@dogs.clear_owner
+@cats.clear_owner
 end
 
 
