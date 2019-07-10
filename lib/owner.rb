@@ -56,6 +56,17 @@ def feed_cats
  end
 end
 
+def sell_pets
+  @dogs.each do |dog|
+  dog.mood = "nervous"
+end
+  @cats.each do |cat|
+    cat.mood = "happy"
+end
+
+end
+  
+
 def list_pets
   dogs = self.dogs.count
   cats = self.cats.count
