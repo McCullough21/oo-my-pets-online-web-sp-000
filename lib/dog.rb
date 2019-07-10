@@ -23,7 +23,7 @@ def self.all
   @@all
 end
 def clear_owner
-  self.owner.clear
+  self.owner = nil
 end
 
 end
