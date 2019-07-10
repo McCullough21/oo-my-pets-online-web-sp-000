@@ -50,10 +50,8 @@ end
 # end
 
 def walk_dogs
-  @@all.each do |owner|
-    owner.dogs.each do |dog|
+  @dogs.each do |dog|
     dog.mood = "happy"
-  end
 end
 end
 
