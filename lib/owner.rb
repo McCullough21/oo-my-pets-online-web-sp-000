@@ -66,6 +66,7 @@ def sell_pets
   end
   binding.pry
 @dogs.clear
+end
 @cats.clear
 end
 
