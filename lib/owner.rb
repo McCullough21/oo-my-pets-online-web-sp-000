@@ -50,7 +50,9 @@ end
 # end
 
 def walk_dogs
-  self.dogs.walk_dogs
+  self.dogs.each do |dog|
+    Dog.walk_dogs
+  end
 end
 
 
