@@ -8,9 +8,6 @@ def initialize(name, owner)
   @@all << name
   @mood = "nervous"
 end
-def mood
-  @mood
-end
 def name
   @name
 end
