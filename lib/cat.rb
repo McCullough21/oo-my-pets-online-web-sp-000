@@ -14,7 +14,7 @@ def name
   @name
 end
 def clear_owner
-  self.owner.clear
+  self.owner = nil
 end
 def self.all
   @@all
