@@ -65,7 +65,7 @@ end
 end
 
 end
-  
+
 
 def list_pets
   dogs = self.dogs.count
