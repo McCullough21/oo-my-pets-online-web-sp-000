@@ -35,12 +35,10 @@ def self.reset_all
   @@all.clear
 end
 def buy_cat(name)
-  cat = Cat.new(name, self)
-  @cats << cat
+  @cats << Cat.new(name, self) 
 end
 def buy_dog(name)
-  dog = Dog.new(name, self)
-  @dogs << dog
+  @dogs << Dog.new(name, self)
 end
 #   it "walks the dogs which makes the dogs' moods happy" do
 #     dog = Dog.new("Daisy", @owner)
